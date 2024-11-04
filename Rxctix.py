@@ -211,7 +211,6 @@ def perform_action(selected_action):
         entry_input.pack(pady=10)
         who_is_on_wlan()
 
-app = ctk.CTk()
 app.geometry("700x600")
 app.title("Rxctix")
 ctk.set_appearance_mode("dark")
